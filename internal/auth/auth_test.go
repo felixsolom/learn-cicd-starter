@@ -27,7 +27,7 @@ func TestAuth(t *testing.T) {
 			header:  http.Header{},
 			want:    "",
 			wantErr: true,
-			errMsg:  "no authorization headr included",
+			errMsg:  "no authorization header included",
 		},
 		{
 			name:    "not an api key",
