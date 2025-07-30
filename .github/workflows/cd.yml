@@ -51,4 +51,4 @@ jobs:
                   --allow-unauthenticated \
                   --project notely-467422 \
                   --max-instances=4 \
-                  --set-secrets=DATABASE_URL=projects/notely-467422/secrets/DATABASE_URL:latest
+                  --set-secrets=DATABASE_URL=DATABASE_URL:latest
